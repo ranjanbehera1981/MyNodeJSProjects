@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang = "en">
+<head>
+  <meta charset = "UTF-8">
+  <link rel = "stylesheet" href="style.css">
+  <title> My Form </title>
+</head>
+
+<body>
+  <header>
+    <h1>MetricStream Installer</h1>
+  </header>
+  <form action="/install" method="POST">
+    <fieldset>
+      <label><b>Server:</b>&emsp;&nbsp;</label>
+      <input type ="text" id = "SERVER" name="SERVER">
+      <br><br>
+      <label><b>Port:</b>&emsp;&emsp;&nbsp;</label>
+      <input type="text" id = "PORT" name="PORT">
+      <br><br>
+	  <label><b>User:</b>&emsp;&emsp;&nbsp;</label>
+      <input type="text" id = "USER" name="USER">
+      <br><br>	
+	  <label><b>Password:&nbsp;</b></label>
+      <input type="password" id = "PASSWORD" name="PASSWORD">
+      <br><br>
+	  <label><b>Installers:&nbsp;</b></label>
+	  <textarea id="INSTALLERS" name="INSTALLERS" rows="4" cols="100"></textarea>
+	  <br><br>
+      <button type ="submit">Install</button>
+    </fieldset
+  </form>
+</body>
+</html>

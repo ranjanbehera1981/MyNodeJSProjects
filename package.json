@@ -16,6 +16,13 @@
     "start": "node app.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "",
-  "license": "ISC"
+  "author": "Priyaranjan",
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "y"
+  },
+  "keywords": [
+    "1234"
+  ]
 }

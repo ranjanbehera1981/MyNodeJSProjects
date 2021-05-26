@@ -50,7 +50,7 @@ for addr in $installers
 			cp -r Apache-Tomcat-7 .
 			echo "Apache_Linux_64.msar" > installer-list.txt 
 			echo "Tomcat_Linux_64.msar" >> installer-list.txt 
-			echo "apache-activemq-5.16.0.msar" >> installer-list.txt
+			echo "apache-activemq-5.16.1.msar" >> installer-list.txt
 			echo "datarouter.msar" >> installer-list.txt
 			echo "elasticsearch-2.4.1.msar" >> installer-list.txt
 			echo "node-js.msar" >> installer-list.txt
@@ -76,7 +76,7 @@ for addr in $installers
 				cp -r Apache-Tomcat-7 .
 				echo "Apache_Linux_64.msar" > installer-list.txt 
 				echo "Tomcat_Linux_64.msar" >> installer-list.txt 
-				echo "apache-activemq-5.16.0.msar" >> installer-list.txt
+				echo "apache-activemq-5.16.1.msar" >> installer-list.txt
 				echo "datarouter.msar" >> installer-list.txt
 				echo "elasticsearch-2.4.1.msar" >> installer-list.txt
 				echo "node-js.msar" >> installer-list.txt
